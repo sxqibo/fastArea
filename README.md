@@ -21,3 +21,21 @@ https://github.com/youzan/vant/blob/main/packages/vant-area-data/src/index.ts
 说明：这个库是基于 `@vant/area-data` 这个库的，只是把数据格式化一下而已，方便我们使用。
 
 因为这个库经常在更新，因此我们会定时更新这个库，保证数据是最新的。
+
+
+## 三：thinkphp配置说明
+1. composer.json 增加
+```json
+  "scripts": {
+    "post-package-install": [
+      "Plugin::install"
+    ],
+    "pre-package-uninstall": [
+      "Plugin::uninstall"
+    ]
+  }
+```
+
+
+2. 增加 extend/Plugin.php 文件
+可以参考 https://github.com/sxqibo/saas-system-thinkphp.git 中的 extend/Plugin.php 文件

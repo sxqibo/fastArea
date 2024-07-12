@@ -20,13 +20,5 @@
     "topthink/think-migration": "^3.0"
   },
   "require-dev": {
-  },
-  "scripts": {
-    "post-install-cmd": [
-      "Sxqibo\\FastArea\\ComposerScripts::copyDatabaseDirectory"
-    ],
-    "post-update-cmd": [
-      "Sxqibo\\FastArea\\ComposerScripts::copyDatabaseDirectory"
-    ]
   }
 }
