@@ -1,6 +1,6 @@
 <?php
 
-namespace Sxqibo\FastWallet;
+namespace Sxqibo\FastArea;
 
 class Install
 {
