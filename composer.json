@@ -1,0 +1,27 @@
+{
+  "name": "sxqibo/fast-area",
+  "description": "地区公共模块，适用于thinkphp8以上框架",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Sxqibo\\FastWallet\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "hongwei",
+      "email": "403236160@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "topthink/framework": ">=0.0.0",
+    "topthink/think-migration": "^3.0"
+  },
+  "require-dev": {
+  }
+}
