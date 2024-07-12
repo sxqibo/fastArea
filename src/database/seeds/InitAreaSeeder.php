@@ -34,7 +34,7 @@ class InitAreaSeeder extends Seeder
     protected function initAreaData(): bool
     {
         // 读取 city.json 文件内容
-        $data = root_path() . 'database/areaData.json';
+        $data = root_path() . 'database/seeds/areaData.json';
 
         $data = json_decode(file_get_contents($data), true);
 
