@@ -5,11 +5,8 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Sxqibo\\FastWallet\\": "src/"
-    },
-    "files": [
-      "src/functions.php"
-    ]
+      "Sxqibo\\FastArea\\": "src/"
+    }
   },
   "authors": [
     {
